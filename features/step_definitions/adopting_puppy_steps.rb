@@ -3,7 +3,7 @@
   end
 
  When /^I click the View Details button for "([^"]*)"$/ do |name|
-    on(HomePage).select_puppy name
+    on(HomePage).select_puppy "asdasdsd"
  end
 
  When /^I click the Adopt Me button$/ do
