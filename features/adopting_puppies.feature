@@ -1,3 +1,4 @@
+@slow
 Feature: Adopting puppies
   As a puppy lover
   I want to adopt puppies

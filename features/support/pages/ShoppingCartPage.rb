@@ -24,4 +24,4 @@ class ShoppingCartPage
      row = (lineitem.to_i - 1) * LINES_PER_PUPPY
      cart_element[row][column].text
     end
- end
+end
