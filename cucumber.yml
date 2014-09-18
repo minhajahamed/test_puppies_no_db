@@ -2,6 +2,6 @@
 std_opts = "--no-source --color --format pretty" # Cucumber::Formatter::Fuubar"
 %>
 
-default: --no-source --color --format junit --out build/testreport.xml
+default: --no-source --color --format pretty
 watir: DRIVER=WATIR <%= std_opts %>  --tags @slow
 selenium: DRIVER=WATIR <%= std_opts %> --tags @~slow
